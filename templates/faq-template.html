@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AAMI Comprehensive Car Insurance - FAQs</title>
+  <title>{{properties.elements.question.value}}</title>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      
       {
         "@type": "Question",
-        "name": "What's the difference between personal and commercial motor insurance?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Personal motor insurance is designed to provide cover for damage and legal liability during private use like commuting or recreational driving. It usually excludes cover for business activities. Commercial motor insurance caters for business use and typically includes higher liability limits and cover for employees driving the vehicle." }
-      },
-      
-      {
-        "@type": "Question",
-        "name": "What is an AAMI Flexi-Premiums Excess?",
-        "acceptedAnswer": { "@type": "Answer", "text": "An AAMI Flexi-Premiums Excess is an excess you can choose to add to eligible policies, on top of your standard excess. Choosing a higher excess lowers your premium, but you'll need to pay more in the event of a claim." }
+        "name": "{{properties.elements.question.value}}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{properties.elements.answer.value}}"
+        }
       }
-      
     ]
   }
   </script>
@@ -28,17 +23,10 @@
   <main>
     <div>
       <h2>Frequently asked questions</h2>
-      
       <div class="faq-item">
-        <h3>What's the difference between personal and commercial motor insurance?</h3>
-        <p>Personal motor insurance is designed to provide cover for damage and legal liability during private use – like commuting or recreational driving. It usually excludes cover for business activities.</p><p>Commercial motor insurance caters for business use and typically includes higher liability limits and cover for employees driving the vehicle.</p>
+        <h3>{{properties.elements.question.value}}</h3>
+        <p>{{properties.elements.answer.value}}</p>
       </div>
-      
-      <div class="faq-item">
-        <h3>What is an AAMI Flexi-Premiums Excess?</h3>
-        <p>An AAMI Flexi-Premiums Excess is an excess you can choose to add to eligible policies, on top of your standard excess. Choosing a higher excess lowers your premium, but you'll need to pay more in the event of a claim.</p>
-      </div>
-      
     </div>
   </main>
 </body>

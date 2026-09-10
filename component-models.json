@@ -6,7 +6,7 @@
         "component": "text",
         "valueType": "string",
         "name": "jcr:title",
-        "label": "Title"
+        "label": "TITLE MODEL TEST"
       },
       {
         "component": "text",
@@ -20,6 +20,19 @@
         "name": "keywords",
         "multi": true,
         "label": "Keywords"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "modelTest",
+        "label": "MODEL TEST FIELD"
+      },
+      {
+        "component": "text-area",
+        "valueType": "string",
+        "name": "json-ld",
+        "label": "JSON-LD",
+        "description": "Paste a valid JSON-LD object. Do not include script tags."
       }
     ]
   },

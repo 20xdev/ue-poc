@@ -21,6 +21,13 @@
           "name": "keywords",
           "multi": true,
           "label": "Keywords"
+        },
+        {
+          "component": "text-area",
+          "valueType": "string",
+          "name": "json-ld",
+          "label": "JSON-LD",
+          "description": "Paste a valid JSON-LD object. Do not include script tags."
         }
       ]
     }
